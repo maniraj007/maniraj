@@ -33,5 +33,5 @@ for d in days:
 			break
 	if (response.geturl()=="http://210.212.250.37/intranet/login_frame_stud_.jsp"):
 		break
-if (response.geturl()=="http://210.212.250.37/intranet/login_frame_stud_.jsp"):
+if (response.geturl()!="http://210.212.250.37/intranet/login_frame_stud_.jsp"):
 	print "Wrong Register Number or Wrong year, try a different year"
